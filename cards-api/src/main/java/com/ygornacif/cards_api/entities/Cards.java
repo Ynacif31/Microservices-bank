@@ -12,7 +12,7 @@ import lombok.*;
 @ToString
 @AllArgsConstructor
 @NoArgsConstructor
-public class Cards extends BaseEntity{
+public class Cards extends BaseEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -29,4 +29,5 @@ public class Cards extends BaseEntity{
     private int amountUsed;
 
     private int availableAmount;
+
 }
