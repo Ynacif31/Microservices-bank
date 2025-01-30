@@ -5,14 +5,14 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.4.1</version>
+		<version>3.4.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.ygornacif</groupId>
-	<artifactId>accounts</artifactId>
+	<artifactId>cards-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	<name>accounts</name>
+	<name>cards-api</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -80,10 +80,6 @@
 	<build>
 		<plugins>
 			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<configuration>
@@ -96,7 +92,18 @@
 					</annotationProcessorPaths>
 				</configuration>
 			</plugin>
+			<plugin>
+				<groupId>com.google.cloud.tools</groupId>
+				<artifactId>jib-maven-plugin</artifactId>
+				<version>3.4.2</version>
+				<configuration>
+					<to>
+						<image>ynacif31/${project.artifactId}:v1</image>
+					</to>
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
+
 
 </project>
