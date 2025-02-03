@@ -14,3 +14,22 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+  config:
+    import:
+      - "application_qa.yml"
+      - "application_prod.yml"
+  profiles:
+    active:
+      - "qa"
+
+
+build:
+  version: "3.0"
+
+loans:
+  message: "Welcome to YgorBank accounts related local APIs "
+  contactDetails:
+    name: "Ygor - Developer"
+    email: "ygor@gmail.com"
+  onCallSupport:
+    - (21) 2198316-1371

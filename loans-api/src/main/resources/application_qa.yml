@@ -1,0 +1,15 @@
+spring:
+  config:
+    activate:
+      on-profile: "qa"
+
+build:
+  version: "2.0"
+
+loans:
+  message: "Welcome to YgorBank accounts related QA APIs "
+  contactDetails:
+    name: "Ygor - QA Lead"
+    email: "ygor@gmail.com"
+  onCallSupport:
+    - (21) 2198316-1371
