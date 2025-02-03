@@ -1,0 +1,15 @@
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+
+build:
+  version: "1.0"
+
+accounts:
+  message: "Welcome to YgorBank accounts related prod APIs "
+  contactDetails:
+    name: "Ygor - Product Owner"
+    email: "ygor@gmail.com"
+  onCallSupport:
+    - (21) 2198316-1371
