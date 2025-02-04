@@ -1,6 +1,10 @@
 server:
   port: 8080
 spring:
+  application:
+    name: "accounts"
+  profiles:
+    active: "prod"
   datasource:
     url: jdbc:h2:mem:testdb
     driverClassName: org.h2.Driver
@@ -15,21 +19,4 @@ spring:
       ddl-auto: update
     show-sql: true
   config:
-    import:
-      - "application_qa.yml"
-      - "application_prod.yml"
-  profiles:
-    active:
-      - "qa"
-
-
-build:
-  version: "3.0"
-
-accounts:
-  message: "Welcome to YgorBank accounts related local APIs "
-  contactDetails:
-    name: "Ygor - Developer"
-    email: "ygor@gmail.com"
-  onCallSupport:
-    - (21) 2198316-1371
+    import: "optional:configserver:http://localhost:8071/"

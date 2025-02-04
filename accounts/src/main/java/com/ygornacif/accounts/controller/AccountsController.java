@@ -33,7 +33,7 @@ import org.springframework.web.bind.annotation.*;
 @Validated
 public class AccountsController {
 
-    private IAccountsService iAccountsService;
+    private final IAccountsService iAccountsService;
 
     public AccountsController(IAccountsService iAccountsService) {
         this.iAccountsService = iAccountsService;
@@ -181,31 +181,6 @@ public class AccountsController {
                 .body(buildVersion);
     }
 
-    @Operation(
-            summary = "Get Java version",
-            description = "Get Java versions details that is installed into accounts microservice"
-    )
-    @ApiResponses({
-            @ApiResponse(
-                    responseCode = "200",
-                    description = "HTTP Status OK"
-            ),
-            @ApiResponse(
-                    responseCode = "500",
-                    description = "HTTP Status Internal Server Error",
-                    content = @Content(
-                            schema = @Schema(implementation = ErrorResponseDto.class)
-                    )
-            )
-    }
-    )
-    @GetMapping("/java-version")
-    public ResponseEntity<String> getJavaVersion() {
-        String javaHome = System.getenv("JAVA_HOME");
-        return ResponseEntity
-                .status(HttpStatus.OK)
-                .body(javaHome);
-    }
     @Operation(
             summary = "Get Contact Info",
             description = "Contact Info details that can be reached out in case of any issues"
