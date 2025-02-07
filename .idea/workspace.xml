@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2a23291-5335-4f82-b1f0-1ec8fbc11f04" name="Changes" comment="LoansContactInfo implemented">
+    <list default="true" id="e2a23291-5335-4f82-b1f0-1ec8fbc11f04" name="Changes" comment="config server git properties spring cloud implemented">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configserver/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/src/main/resources/application.yml" afterDir="false" />
     </list>
@@ -92,7 +92,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.AccountsApplication">
+  <component name="RunManager" selected="Spring Boot.ConfigserverApplication">
     <configuration name="AccountsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="accounts" />
@@ -183,7 +183,7 @@
       <workItem from="1738621663477" duration="2784000" />
       <workItem from="1738678684873" duration="3248000" />
       <workItem from="1738940315844" duration="923000" />
-      <workItem from="1738951292262" duration="627000" />
+      <workItem from="1738951292262" duration="1879000" />
     </task>
     <task id="LOCAL-00001" summary="Docker compose created">
       <option name="closed" value="true" />
@@ -217,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738617336989</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="config server git properties spring cloud implemented">
+      <option name="closed" value="true" />
+      <created>1738951996622</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1738951996622</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,6 +236,7 @@
     <MESSAGE value="AccountsContactInfo implemented" />
     <MESSAGE value="CardsContactInfo implemented" />
     <MESSAGE value="LoansContactInfo implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="LoansContactInfo implemented" />
+    <MESSAGE value="config server git properties spring cloud implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="config server git properties spring cloud implemented" />
   </component>
 </project>
