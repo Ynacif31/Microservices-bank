@@ -24,3 +24,8 @@ server:
   port: 8071
 encrypt:
   key: "asdasd4654s6ad48s4d864ds8"
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
