@@ -113,7 +113,7 @@
 				<version>3.4.2</version>
 				<configuration>
 					<to>
-						<image>ynacif31/${project.artifactId}:s6</image>
+						<image>ynacif31/${project.artifactId}:v2</image>
 					</to>
 				</configuration>
 			</plugin>
