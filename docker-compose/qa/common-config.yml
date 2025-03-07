@@ -3,19 +3,32 @@ services:
     networks:
       - ygorbank
 
-  microservice-base-config:
+  microservice-db-config:
     extends:
       service: network-deploy-service
-    deploy:
-      resources:
-        limits:
-          memory: 700m
+    image: mysql
+    healthcheck:
+      test: [ "CMD", "mysqladmin" ,"ping", "-h", "localhost" ]
+      timeout: 10s
+      retries: 10
+      interval: 10s
+      start_period: 10s
     environment:
-      SPRING_RABBITMQ_HOST: "rabbit"
+      MYSQL_ROOT_PASSWORD: root
 
-  microservice-configserver-config:
-    extends:
-      service: microservice-base-config
-    environment:
-      SPRING_PROFILES_ACTIVE: qa
-      SPRING_CONFIG_IMPORT: configserver:http://configserver:8071/
+    microservice-base-config:
+      extends:
+        service: network-deploy-service
+      deploy:
+        resources:
+          limits:
+            memory: 700m
+
+    microservice-configserver-config:
+      extends:
+        service: microservice-base-config
+      environment:
+        SPRING_PROFILES_ACTIVE: qa
+        SPRING_CONFIG_IMPORT: configserver:http://configserver:8071/
+        SPRING_DATASOURCE_USERNAME: root
+        SPRING_DATASOURCE_PASSWORD: root
