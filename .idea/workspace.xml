@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2a23291-5335-4f82-b1f0-1ec8fbc11f04" name="Changes" comment="Docker compose prod and qa created">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cards-api/pom.xml" afterDir="false" />
+    <list default="true" id="e2a23291-5335-4f82-b1f0-1ec8fbc11f04" name="Changes" comment=" accounts database changed to MySQL">
       <change beforePath="$PROJECT_DIR$/cards-api/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cards-api/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/loans-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans-api/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/loans-api/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +104,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigserverApplication">
+  <component name="RunManager" selected="Spring Boot.CardsApiApplication">
     <configuration name="AccountsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="accounts" />
@@ -210,7 +201,7 @@
       <workItem from="1739994443296" duration="11000" />
       <workItem from="1740420644208" duration="10245000" />
       <workItem from="1740579400939" duration="7855000" />
-      <workItem from="1741370768866" duration="2049000" />
+      <workItem from="1741370768866" duration="2463000" />
     </task>
     <task id="LOCAL-00001" summary="Docker compose created">
       <option name="closed" value="true" />
@@ -300,7 +291,23 @@
       <option name="project" value="LOCAL" />
       <updated>1740599907535</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Database changed to MySQL">
+      <option name="closed" value="true" />
+      <created>1741373166452</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1741373166452</updated>
+    </task>
+    <task id="LOCAL-00013" summary=" accounts database changed to MySQL">
+      <option name="closed" value="true" />
+      <created>1741373240832</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1741373240832</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,6 +323,8 @@
     <MESSAGE value="Github Webhooks started" />
     <MESSAGE value="Docker compose created" />
     <MESSAGE value="Docker compose prod and qa created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Docker compose prod and qa created" />
+    <MESSAGE value="Database changed to MySQL" />
+    <MESSAGE value=" accounts database changed to MySQL" />
+    <option name="LAST_COMMIT_MESSAGE" value=" accounts database changed to MySQL" />
   </component>
 </project>
