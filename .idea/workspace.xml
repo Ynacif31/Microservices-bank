@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2a23291-5335-4f82-b1f0-1ec8fbc11f04" name="Changes" comment=" cards database changed to MySQL">
+    <list default="true" id="e2a23291-5335-4f82-b1f0-1ec8fbc11f04" name="Changes" comment="docker-compose.yml updated">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/default/common-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/default/common-config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/default/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/default/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/prod/common-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/prod/common-config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/prod/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/prod/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/qa/common-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/qa/common-config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/qa/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/qa/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +107,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.CardsApiApplication">
+  <component name="RunManager" selected="Spring Boot.EurekaserverApplication">
     <configuration name="AccountsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="accounts" />
@@ -130,6 +127,13 @@
     <configuration name="ConfigserverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="configserver" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ygornacif.configserver.ConfigserverApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaserverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eurekaserver" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ygornacif.eurekaserver.EurekaserverApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -207,7 +211,11 @@
       <workItem from="1739994443296" duration="11000" />
       <workItem from="1740420644208" duration="10245000" />
       <workItem from="1740579400939" duration="7855000" />
-      <workItem from="1741370768866" duration="4785000" />
+      <workItem from="1741370768866" duration="5347000" />
+      <workItem from="1741713919758" duration="793000" />
+      <workItem from="1742245737553" duration="1452000" />
+      <workItem from="1743015152954" duration="806000" />
+      <workItem from="1743018670739" duration="1252000" />
     </task>
     <task id="LOCAL-00001" summary="Docker compose created">
       <option name="closed" value="true" />
@@ -321,7 +329,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741373772094</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="docker-compose.yml updated">
+      <option name="closed" value="true" />
+      <created>1741376242076</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1741376242076</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,6 +356,7 @@
     <MESSAGE value="Database changed to MySQL" />
     <MESSAGE value=" accounts database changed to MySQL" />
     <MESSAGE value=" cards database changed to MySQL" />
-    <option name="LAST_COMMIT_MESSAGE" value=" cards database changed to MySQL" />
+    <MESSAGE value="docker-compose.yml updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="docker-compose.yml updated" />
   </component>
 </project>
